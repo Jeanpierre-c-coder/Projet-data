@@ -6,6 +6,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from src.core.base_analyzer import BaseAnalyzer
 from src.core.analyzer_factory import AnalyzerFactory
 
+"df": data
 
 class KeywordAnalyzer(BaseAnalyzer):
     def __init__(
