@@ -55,6 +55,11 @@ class KeywordAnalyzer(BaseAnalyzer):
             "keywords_global": keywords_global,
             "keywords_per_doc": keywords_per_doc
         }
+import joblib
+from pathlib import Path
+
+# À la fin de analyze()
+joblib.dump(self.vectorizer, Path("models/vectorizer.joblib"))
 
 
 # Enregistrement dans la factory
