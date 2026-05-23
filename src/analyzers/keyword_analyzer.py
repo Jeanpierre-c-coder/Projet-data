@@ -58,7 +58,6 @@ class KeywordAnalyzer(BaseAnalyzer):
 import joblib
 from pathlib import Path
 
-# À la fin de analyze()
 joblib.dump(self.vectorizer, Path("models/vectorizer.joblib"))
 
 
