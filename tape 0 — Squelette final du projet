@@ -1,0 +1,35 @@
+projet_veille/
+├─ data/
+│  ├─ raw/
+│  └─ processed/
+├─ models/
+├─ reports/
+├─ src/
+│  ├─ core/
+│  │  ├─ __init__.py
+│  │  ├─ base_analyzer.py
+│  │  ├─ analyzer_factory.py
+│  │  └─ utils.py
+│  ├─ analyzers/
+│  │  ├─ __init__.py
+│  │  ├─ descriptive_analyzer.py
+│  │  ├─ keyword_analyzer.py
+│  │  ├─ clustering_analyzer.py
+│  │  └─ classification_analyzer.py
+│  ├─ pipelines/
+│  │  ├─ __init__.py
+│  │  └─ data_mining_pipeline.py
+│  ├─ api/
+│  │  ├─ __init__.py
+│  │  └─ main_api.py
+│  ├─ dashboard/
+│  │  ├─ __init__.py
+│  │  └─ app.py
+│  └─ main.py
+├─ tests/
+│  ├─ __init__.py
+│  └─ test_basic.py
+├─ Dockerfile
+├─ docker-compose.yml
+├─ requirements.txt
+└─ README.md
